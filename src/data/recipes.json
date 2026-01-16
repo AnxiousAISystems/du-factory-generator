@@ -4064,6 +4064,23 @@
         },
         "id": 625289663
     },
+    "Uncommon Chemical Container L": {
+        "tier": 2,
+        "type": "Functional Part",
+        "volume": 778.4,
+        "outputQuantity": 1,
+        "time": 1556,
+        "byproducts": {},
+        "industry": "Basic Metalwork Industry M",
+        "input": {
+            "Basic Screw": 38,
+            "Basic Electronics": 38,
+            "Duralumin": 343,
+            "Uncommon Screw": 88,
+            "Uncommon Electronics": 88
+        },
+        "id": 625289664
+    },
     "Advanced Chemical Container S": {
         "tier": 3,
         "type": "Functional Part",
@@ -4378,6 +4395,25 @@
             "Advanced Burner": 50
         },
         "id": 2662310086
+    },
+    "Advanced Combustion Chamber XL": {
+        "tier": 3,
+        "type": "Functional Part",
+        "volume": 7429.6,
+        "outputQuantity": 1,
+        "time": 18660,
+        "byproducts": {},
+        "industry": "Uncommon Metalwork Industry M",
+        "input": {
+            "Basic Pipe": 188,
+            "Basic Burner": 188,
+            "Uncommon Pipe": 188,
+            "Uncommon Burner": 188,
+            "Inconel": 2401,
+            "Advanced Pipe": 250,
+            "Advanced Burner": 250
+        },
+        "id": 2662310088
     },
     "Rare Combustion Chamber XS": {
         "tier": 4,
@@ -10032,6 +10068,42 @@
         },
         "id": 3039582547
     },
+    "Uncommon Gravity-Inverted Atmospheric Fuel Tank L": {
+        "tier": 2,
+        "type": "Industry & Infrastructure Element",
+        "volume": 2755.4,
+        "outputQuantity": 1,
+        "time": 14160,
+        "byproducts": {},
+        "industry": "Basic Assembly Line L",
+        "input": {
+            "Basic Pipe": 108,
+            "Uncommon Pipe": 108,
+            "Uncommon Injector": 125,
+            "Uncommon Chemical Container L": 1,
+            "Uncommon Standard Frame L": 1,
+            "Tier 2 L Element Schematic Copy": 1
+        },
+        "id": 3039582548
+    },
+    "Uncommon Gravity-Inverted Space Fuel Tank L": {
+        "tier": 2,
+        "type": "Industry & Infrastructure Element",
+        "volume": 2755.4,
+        "outputQuantity": 1,
+        "time": 14160,
+        "byproducts": {},
+        "industry": "Basic Assembly Line L",
+        "input": {
+            "Basic Pipe": 108,
+            "Uncommon Pipe": 108,
+            "Uncommon Injector": 125,
+            "Uncommon Chemical Container L": 1,
+            "Uncommon Standard Frame L": 1,
+            "Tier 2 L Element Schematic Copy": 1
+        },
+        "id": 3039582549
+    },
     "Space Fuel Tank XS": {
         "tier": 1,
         "type": "Industry & Infrastructure Element",
@@ -10084,6 +10156,23 @@
             "Tier 2 M Element Schematic Copy": 1
         },
         "id": 773467906
+    },
+    "Advanced Optimised Space Fuel Tank M": {
+        "tier": 3,
+        "type": "Industry & Infrastructure Element",
+        "volume": 499.2,
+        "outputQuantity": 1,
+        "time": 10620,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line M",
+        "input": {
+            "Uncommon Pipe": 36,
+            "Advanced Injector": 25,
+            "Advanced Chemical Container M": 1,
+            "Advanced Standard Frame M": 1,
+            "Tier 3 M Element Schematic Copy": 1
+        },
+        "id": 773467907
     },
     "Space Fuel Tank L": {
         "tier": 1,
@@ -11339,6 +11428,23 @@
         },
         "id": 104971834
     },
+    "Advanced Atmospheric Airbrake L": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 619.2,
+        "outputQuantity": 1,
+        "time": 10620,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line M",
+        "input": {
+            "Uncommon Pipe": 36,
+            "Advanced Hydraulics": 25,
+            "Advanced Mobile Panel M": 1,
+            "Advanced Standard Frame M": 1,
+            "Tier 3 L Element Schematic Copy": 1
+        },
+        "id": 104971835
+    },
     "Compact Aileron XS": {
         "tier": 1,
         "type": "Piloting Element",
@@ -11444,6 +11550,40 @@
             "Construct Support M Schematic Copy": 1
         },
         "id": 1856288931
+    },
+    "Advanced Aileron M": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 1238.4,
+        "outputQuantity": 1,
+        "time": 21180,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line M",
+        "input": {
+            "Uncommon Screw": 72,
+            "Advanced Hydraulics": 50,
+            "Advanced Mobile Panel M": 2,
+            "Advanced Standard Frame M": 2,
+            "Tier 3 M Element Schematic Copy": 1
+        },
+        "id": 1856288933
+    },
+    "Advanced Aileron L": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 3257.63,
+        "outputQuantity": 1,
+        "time": 84780,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line L",
+        "input": {
+            "Uncommon Screw": 516,
+            "Advanced Hydraulics": 250,
+            "Advanced Mobile Panel L": 2,
+            "Advanced Standard Frame L": 2,
+            "Tier 3 L Element Schematic Copy": 1
+        },
+        "id": 1856288932
     },
     "Stabilizer XS": {
         "tier": 1,
@@ -11567,6 +11707,40 @@
             "Construct Support M Schematic Copy": 1
         },
         "id": 404188468
+    },
+    "Advanced Wing M": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 619.2,
+        "outputQuantity": 1,
+        "time": 10620,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line M",
+        "input": {
+            "Uncommon Screw": 36,
+            "Advanced Hydraulics": 25,
+            "Advanced Mobile Panel M": 1,
+            "Advanced Standard Frame M": 1,
+            "Tier 3 M Element Schematic Copy": 1
+        },
+        "id": 404188470
+    },
+    "Advanced Wing L": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 3257.63,
+        "outputQuantity": 1,
+        "time": 42420,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line L",
+        "input": {
+            "Uncommon Screw": 216,
+            "Advanced Hydraulics": 125,
+            "Advanced Mobile Panel L": 1,
+            "Advanced Standard Frame L": 1,
+            "Tier 3 L Element Schematic Copy": 1
+        },
+        "id": 404188469
     },
     "Wing Variant M": {
         "tier": 1,
@@ -12613,6 +12787,23 @@
         },
         "id": 1397818124
     },
+    "Counterphase Advanced Maneuver Atmospheric Engine L": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 3355,
+        "outputQuantity": 1,
+        "time": 25440,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line L",
+        "input": {
+            "Uncommon Screw": 216,
+            "Advanced Injector": 125,
+            "Advanced Combustion Chamber M": 1,
+            "Advanced Reinforced Frame L": 1,
+            "Tier 3 L Element Schematic Copy": 1
+        },
+        "id": 1397818125
+    },
     "Advanced Military Atmospheric Engine L": {
         "tier": 3,
         "type": "Piloting Element",
@@ -12629,6 +12820,55 @@
             "Tier 3 L Element Schematic Copy": 1
         },
         "id": 2559369183
+    },
+    "Counterphase Advanced Military Atmospheric Engine XL": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 18120,
+        "outputQuantity": 1,
+        "time": 101760,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line XL",
+        "input": {
+            "Uncommon Screw": 1296,
+            "Advanced Injector": 625,
+            "Advanced Combustion Chamber XL": 1,
+            "Advanced Reinforced Frame XL": 1,
+            "Tier 3 XL Element Schematic Copy": 1
+        },
+        "id": 2559369184
+    },
+    "Exotic Atmospheric Engine Overclock": {
+        "tier": 5,
+        "type": "Systems Element",
+        "volume": 0,
+        "outputQuantity": 1,
+        "time": 345600,
+        "byproducts": {},
+        "industry": "Rare Electronics Industry M",
+        "input": {
+            "Advanced LED": 216,
+            "Rare Processor": 250,
+            "Exotic Electronics": 32,
+            "Exotic Standard Frame S": 1
+        },
+        "id": 3456000001
+    },
+    "Exotic Space Engine Overclock": {
+        "tier": 5,
+        "type": "Systems Element",
+        "volume": 0,
+        "outputQuantity": 1,
+        "time": 345600,
+        "byproducts": {},
+        "industry": "Rare Electronics Industry M",
+        "input": {
+            "Advanced LED": 216,
+            "Rare Processor": 250,
+            "Exotic Electronics": 32,
+            "Exotic Standard Frame S": 1
+        },
+        "id": 3456000002
     },
     "Advanced Safe Atmospheric Engine L": {
         "tier": 3,
@@ -15287,6 +15527,23 @@
             "Construct Support L Schematic Copy": 1
         },
         "id": 2818864930
+    },
+    "Advanced Adjustor L": {
+        "tier": 3,
+        "type": "Piloting Element",
+        "volume": 619.2,
+        "outputQuantity": 1,
+        "time": 10620,
+        "byproducts": {},
+        "industry": "Uncommon Assembly Line M",
+        "input": {
+            "Uncommon Pipe": 36,
+            "Advanced Injector": 25,
+            "Advanced Gas Cylinder M": 1,
+            "Advanced Standard Frame M": 1,
+            "Tier 3 L Element Schematic Copy": 1
+        },
+        "id": 2818864931
     },
     "Rocket Engine S": {
         "tier": 3,
