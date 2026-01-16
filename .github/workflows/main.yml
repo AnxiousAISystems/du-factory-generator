@@ -30,6 +30,13 @@ jobs:
     - name: Build
       run: npm run build
 
+    - name: Verify build output
+      run: |
+        echo "Contents of dist directory:"
+        ls -la ./dist/
+        echo "Checking for index.html:"
+        test -f ./dist/index.html && echo "✓ index.html exists" || echo "✗ index.html missing"
+
     - name: Create .nojekyll file
       run: touch ./dist/.nojekyll
 
@@ -39,3 +46,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
         publish_branch: gh-pages
+        force_orphan: true
