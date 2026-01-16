@@ -21,6 +21,9 @@ module.exports = ({ ifDev, ifProd }) => ({
         ...ifProd({
             publicPath: "/du-factory-generator/",
         }),
+        ...ifDev({
+            publicPath: "/",
+        }),
     },
     devServer: {
         static: "./dist",
